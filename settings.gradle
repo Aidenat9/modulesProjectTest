@@ -1,0 +1,1 @@
+include ':app', ':modulebase', ':moduledatabase',  ':modulebaidumap2', ':modulechat', ':modulefriendcircle', ':modulex', ':mylibrary'

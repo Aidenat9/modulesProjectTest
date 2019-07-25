@@ -1,0 +1,22 @@
+ext{
+    android = [
+            compileSdkVersion :29,
+            buildToolsVersion :"29.0.1",
+            minSdkVersion :21,
+            targetSdkVersion: 29,
+    ]
+    dependencies=[
+            project:[
+                moduleBase:':moduleSystem:modulebase',
+                    moduleBaidu:':modulePublic:modulebaidumap2',
+
+            ],
+            "kotlin": "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+            "appcompat": 'androidx.appcompat:appcompat:1.0.0-beta01',
+            "ktx": 'androidx.core:core-ktx:1.2.0-alpha02',
+            "constraintlayout": 'androidx.constraintlayout:constraintlayout:1.1.2',
+            "junit": 'junit:junit:4.12',
+            "runner" :'androidx.test:runner:1.1.0-alpha4',
+            "androidTestImplementation": 'androidx.test.espresso:espresso-core:3.1.0-alpha4',
+    ]
+}
